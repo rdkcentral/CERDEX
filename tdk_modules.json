@@ -12,7 +12,7 @@
       "name": "rdkv_performance",
       "config_files": [
         "BrowserPerformanceVariables.py",
-        "IPChangeDetectionVariables.py",
+        "MediaValidationVariables.py",
         "PerformanceTestVariables.py"
       ]
     },
