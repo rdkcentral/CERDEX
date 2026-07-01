@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>RVS scripts</description>
+        <scripts>
+            <script_name>RDKV_CERT_RVS_RDKService_APIs_SynchronousCall</script_name>
+            <script_name>RDKV_CERT_RVS_Reboot</script_name>
+            <script_name>RDKV_CERT_RVS_LongDuration_VideoPlayback_4K_DASH</script_name>
+            <script_name>RDKV_CERT_RVS_Toggle_PowerStates</script_name>
+            <script_name>RDKV_CERT_RVS_LongDuration_HLS_VideoPlayback</script_name>
+            <script_name>RDKV_CERT_RVS_LongDuration_VideoPlayback_4K_HLS</script_name>
+            <script_name>RDKV_CERT_RVS_WebKitBrowser_Load_GraphicsApp</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_Install_UnInstall</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_Launch_Terminate</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_Launch_Kill</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_CloseApp_LifeCycle</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_Launch_Close</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_Install_Uninstall_MultipleApps</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_LifeCycleManagement</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_TerminateApp_LifeCycle</script_name>
+            <script_name>RDKV_CERT_RVS_AppManager_LaunchApp_LifeCycle</script_name>
+        </scripts>
+    </test_suite>
+</xml>

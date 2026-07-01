@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>Testsuite for entservices appmanagers</description>
+        <scripts>
+            <script_name>RDKV_CERT_AVS_AppStorageManager</script_name>
+            <script_name>RDKV_CERT_AVS_DownloadManager</script_name>
+            <script_name>RDKV_CERT_AVS_PackageManager</script_name>
+            <script_name>RDKV_CERT_AVS_AppManager</script_name>
+            <script_name>RDKV_CERT_AVS_LifecycleManager</script_name>
+            <script_name>RDKV_CERT_AVS_RDKWindowManager</script_name>
+            <script_name>RDKV_CERT_AVS_ResourceManager</script_name>
+            <script_name>RDKV_CERT_AVS_PreinstallManager</script_name>
+            <script_name>RDKV_CERT_AVS_RuntimeManager</script_name>
+        </scripts>
+    </test_suite>
+</xml>

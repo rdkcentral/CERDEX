@@ -1,0 +1,48 @@
+{
+  "modules": [
+    {
+      "name": "rdkservices",
+      "config_files": []
+    },
+    {
+      "name": "rdkv_media",
+      "config_files": ["MediaValidationVariables.py"]
+    },
+    {
+      "name": "rdkv_performance",
+      "config_files": [
+        "BrowserPerformanceVariables.py",
+        "IPChangeDetectionVariables.py",
+        "PerformanceTestVariables.py"
+      ]
+    },
+    {
+      "name": "rdkv_stability",
+      "config_files": ["StabilityTestVariables.py"]
+    },
+    {
+      "name": "firebolt_native_apps_compliance",
+      "config_files": ["MediaValidationVariables.py"]
+    },
+    {
+      "name": "rdkv_appmanagers",
+      "config_files": []
+    },
+    {
+      "name": "rdkv_apparmor",
+      "config_files": []
+    },
+    {
+      "name": "RFC",
+      "config_files": []
+    },
+    {
+      "name": "WebAudio",
+      "config_files": ["WebAudioVariables.py"]
+    },
+    {
+      "name": "vendor_test_suite",
+      "config_files": []
+    }
+  ]
+}

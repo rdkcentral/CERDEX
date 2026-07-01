@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>TestSuite For rdkv_Telemetry</description>
+        <scripts>
+            <script_name>RDKV_Telemetry_Memory_Used</script_name>
+            <script_name>RDKV_Telemetry_Process_Entries</script_name>
+            <script_name>RDKV_Telemetry_Uptime</script_name>
+            <script_name>RDKV_Telemetry_Event_VMStats_Split</script_name>
+            <script_name>RDKV_Telemetry_Check_LighttpdPID</script_name>
+            <script_name>RDKV_Telemetry_Hardware_Memory_Used</script_name>
+            <script_name>RDKV_Telemetry_MemoryStatus_Free</script_name>
+            <script_name>RDKV_Telemetry_CPUUsage</script_name>
+            <script_name>RDKV_Telemetry_ClearResetCount</script_name>
+            <script_name>RDKV_Telemetry_IPv4Enable</script_name>
+            <script_name>RDKV_Telemetry_Memory_Threshold</script_name>
+            <script_name>RDKV_Telemetry_Enable_Speedtest</script_name>
+            <script_name>RDKV_Telemetry_Check_Telemetry_Version</script_name>
+            <script_name>RDKV_Telemetry_Total_MemoryStatus</script_name>
+            <script_name>RDKV_Telemetry_Get_CM_MAC</script_name>
+            <script_name>RDKV_Telemetry_Hardware_MemFree</script_name>
+            <script_name>RDKV_Telemetry_Event_FreeMemory_Split</script_name>
+            <script_name>RDKV_Telemetry_MAC</script_name>
+            <script_name>RDKV_Telemetry_FeatureEnable</script_name>
+            <script_name>RDKV_Log_Upload_Validation</script_name>
+            <script_name>RDKV_Telemetry_Description</script_name>
+            <script_name>RDKV_Telemetry_FactoryResetCount</script_name>
+            <script_name>RDKV_Telemetry_Event_CPUInfo_Split</script_name>
+            <script_name>RDKV_Telemetry_Check_Telemetry_Status</script_name>
+            <script_name>RDKV_Telemetry_Event_UsedMemory_split</script_name>
+            <script_name>RDKV_Telemetry_HardwareVersion</script_name>
+        </scripts>
+    </test_suite>
+</xml>

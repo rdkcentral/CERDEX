@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>TestSuite For rdkvxconfrfc</description>
+        <scripts>
+            <script_name>RDKV_RFC_DAB_Enable</script_name>
+            <script_name>RDKV_RFC_StandbyReboot_Enable</script_name>
+            <script_name>RDKV_RFC_Telemetry_MTLS_Enable</script_name>
+            <script_name>RDKV_RFC_AutoReboot_Enable</script_name>
+            <script_name>RDKV_RFC_ThunderSecurity_Enable</script_name>
+            <script_name>RDKV_RFC_AppHibernate_Enable</script_name>
+        </scripts>
+    </test_suite>
+</xml>

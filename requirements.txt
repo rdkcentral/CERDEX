@@ -1,0 +1,10 @@
+websocket-client==0.57.0
+selenium==3.141.0
+requests
+pexpect
+gevent
+pillow
+numpy
+paramiko
+openpyxl
+flask
