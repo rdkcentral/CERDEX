@@ -564,7 +564,7 @@ sudo dpkg -i tdk.deb
 Manually install the Python dependencies:
 
 ```bash
-/opt/TDK_ENV/bin/pip install -r /opt/tdk-runner/requirements.txt
+/opt/TDK_ENV/bin/pip install -r /opt/cerdex/requirements.txt
 ```
 
 If that does not work, purge and reinstall:
