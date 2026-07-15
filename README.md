@@ -52,7 +52,7 @@ sudo apt install -y python3 python3-venv python3-pip git curl
 curl -I https://github.com
 ```
 
-You should see `HTTP/2 200`. If you get an error, the installer will not be able to download required components.
+You should see `200` response (for example, `HTTP/2 200` or `HTTP/1.1 200`). If you get an error, the installer will not be able to download required components.
 
 ---
 
@@ -89,8 +89,8 @@ The installer will clone the test framework and fetch configuration files from G
    ✅ requirements.txt
    ✅ tdk_modules.json
    Fetching test suites...
-   ✅ suites/smoke_test.xml
-   ✅ suites/pvs_suite.xml
+   ✅ suites/RDK8_RVS_Suite.xml
+   ✅ suites/RDK8_PVS_Suite.xml
 
 🐍 Setting up Python virtual environment...
 
@@ -406,20 +406,20 @@ Sample output:
 
 ```
 Available suites:
-  • smoke_test        — Quick smoke test for basic RDK service validation
-  • pvs_suite         — PVS certification test suite
+  • <suite_1> — <description>
+  • <suite_2> — <description>
 ```
 
 Run a suite:
 
 ```bash
-sudo tdk run --suite smoke_test
+sudo tdk run --suite RDK8_PVS_Suite
 ```
 
 ### Run multiple specific scripts
 
 ```bash
-tdk run --module rdkv_performance \
+sudo tdk run --module rdkv_performance \
     --script RDKV_CERT_PVS_AppManager_TimeTo_Install_App.py \
     --script RDKV_CERT_PVS_Apps_TimeTo_Video_PlayPause_4K_MKV.py
 ```
@@ -429,13 +429,13 @@ tdk run --module rdkv_performance \
 Useful if you want to test against a different device without re-running setup:
 
 ```bash
-tdk run --ip 192.168.2.50 --port 9998
+sudo tdk run --ip 192.168.2.50 --port 9998
 ```
 
 ### Skip confirmation prompts (automated / CI use)
 
 ```bash
-tdk run --module rdkservices --all --assume-yes
+sudo tdk run --module rdkservices --all --assume-yes
 ```
 
 ---
@@ -535,7 +535,7 @@ Copy the missing file to the correct location and retry:
 
 ```bash
 sudo cp BrowserPerformanceVariables.py /opt/tdkv_repo/framework/fileStore/
-tdk run
+sudo tdk run
 ```
 
 ### Install fails: "Could not determine latest tdk-core tag"
@@ -606,15 +606,15 @@ tdk setup
 tdk setup --ip 192.168.1.100 --port 9998 --conf-name mydevice.config
 
 # Run tests (interactive)
-tdk run
+sudo tdk run
 
 # Run tests (non-interactive)
-tdk run --module rdkv_performance --script RDKV_PERF_BrowserMemory.py
-tdk run --module rdkservices --all
-tdk run --suite smoke_test
+sudo tdk run --module rdkv_performance --script RDKV_PERF_BrowserMemory.py
+sudo tdk run --module rdkservices --all
+sudo tdk run --suite RDK8_PVS_Suite
 
 # List available suites
-tdk run --list-suites
+sudo tdk run --list-suites
 
 # View report
 tdk report
