@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>TestSuite For rdkv_WebPA</description>
+        <scripts>
+            <script_name>RDKV_WebPA_USBAutoMountEnable</script_name>
+            <script_name>RDKV_WebPA_AppHibernate_Enable</script_name>
+            <script_name>RDKV_WebPA_Get_SoftwareVersion</script_name>
+            <script_name>RDKV_WebPA_HDMISupportedResolutions</script_name>
+            <script_name>RDKV_WebPA_Telemetry_MTLS_Enable</script_name>
+            <script_name>RDKV_WebPA_SHORTSEnable</script_name>
+            <script_name>RDKV_WebPA_EntOsAppPlatformEnable</script_name>
+            <script_name>RDKV_WebPA_STB_Manufacturer</script_name>
+            <script_name>RDKV_WebPA_EnvKeyLabel</script_name>
+            <script_name>RDKV_WebPA_ThunderSecurity_Enable</script_name>
+            <script_name>RDKV_WebPA_UploadLogs</script_name>
+            <script_name>RDKV_WebPA_BluetoothDiscoveredDeviceCount</script_name>
+            <script_name>RDKV_WebPA_Check_Parodus_Service_Status</script_name>
+            <script_name>RDKV_WebPA_SpeakerAudioPortEnable</script_name>
+            <script_name>RDKV_WebPA_ModelName</script_name>
+            <script_name>RDKV_WebPA_AutoReboot_Enable</script_name>
+            <script_name>RDKV_WebPA_MigrationStatus</script_name>
+            <script_name>RDKV_WebPA_IUIVersion</script_name>
+            <script_name>RDKV_WebPA_DAB_Enable</script_name>
+            <script_name>RDKV_WebPA_EthernetInterfaceCount</script_name>
+            <script_name>RDKV_WebPA_Get_HardwareVersion</script_name>
+            <script_name>RDKV_WebPA_FirmwareFilename</script_name>
+            <script_name>RDKV_WebPA_Get_PowerStatus</script_name>
+            <script_name>RDKV_WebPA_DbgServicesEnable</script_name>
+            <script_name>RDKV_WebPA_CPUTemp</script_name>
+            <script_name>RDKV_WebPA_BluetoothDiscoveryEnable</script_name>
+            <script_name>RDKV_WebPA_StandbyReboot_Enable</script_name>
+            <script_name>RDKV_WebPA_MPEGHProfileLevelCount</script_name>
+            <script_name>RDKV_WebPA_CrashportalEndpointEnable</script_name>
+            <script_name>RDKV_WebPA_BTRGamePad_Enable</script_name>
+            <script_name>RDKV_WebPA_Get_SerialNumber</script_name>
+            <script_name>RDKV_WebPA_BluetoothEnable</script_name>
+            <script_name>RDKV_WebPA_Collectd_PortNumber</script_name>
+            <script_name>RDKV_WebPA_TelemetryConfigURL</script_name>
+            <script_name>RDKV_WebPA_AccountID</script_name>
+        </scripts>
+    </test_suite>
+</xml>

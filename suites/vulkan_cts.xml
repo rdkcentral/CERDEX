@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>TestSuite For vulkan_cts</description>
+        <scripts>
+            <script_name>Vulkan_CTS_SUBGROUPS</script_name>
+            <script_name>Vulkan_CTS_DYNAMIC_STATE</script_name>
+            <script_name>Vulkan_CTS_YCBCR</script_name>
+            <script_name>Vulkan_CTS_COMPUTE</script_name>
+            <script_name>Vulkan_CTS_MEMORY_MODEL</script_name>
+            <script_name>Vulkan_CTS_INFO</script_name>
+            <script_name>Vulkan_CTS_DRAW</script_name>
+            <script_name>Vulkan_CTS_RENDERPASS</script_name>
+            <script_name>Vulkan_CTS_BINDING_MODEL</script_name>
+            <script_name>Vulkan_CTS_QUERY</script_name>
+            <script_name>Vulkan_CTS_SYNCHRONIZATION2</script_name>
+            <script_name>Vulkan_CTS_SYNCHRONIZATION</script_name>
+            <script_name>Vulkan_CTS_RASTERIZATION</script_name>
+            <script_name>Vulkan_CTS_PIPELINE</script_name>
+            <script_name>Vulkan_CTS_API</script_name>
+            <script_name>Vulkan_CTS_IMAGE</script_name>
+            <script_name>Vulkan_CTS_MEMORY</script_name>
+            <script_name>Vulkan_CTS_DEVICE_GROUP</script_name>
+            <script_name>Vulkan_CTS_WSI</script_name>
+            <script_name>Vulkan_CTS_TEXTURE</script_name>
+        </scripts>
+    </test_suite>
+</xml>
