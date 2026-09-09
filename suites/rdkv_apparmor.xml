@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>TestSuite For rdkv_apparmor</description>
+        <scripts>
+            <script_name>RDKV_AppArmor_Check_Status</script_name>
+            <script_name>RDKV_AppArmor_Complain</script_name>
+            <script_name>RDKV_AppArmor_Check_Profiles</script_name>
+            <script_name>RDKV_AppArmor_Default_Enforce</script_name>
+            <script_name>RDKV_AppArmor_Check_Binaries</script_name>
+            <script_name>RDKV_AppArmor_Disable</script_name>
+            <script_name>RDKV_AppArmor_Enforce</script_name>
+            <script_name>RDKV_AppArmor_Dac_Override_Audiocapturemgr</script_name>
+            <script_name>RDKV_AppArmor_Check_Blocklist</script_name>
+            <script_name>RDKV_AppArmor_Write_Exe_Check</script_name>
+            <script_name>RDKV_AppArmor_Dac_Override_Lighttpd</script_name>
+            <script_name>RDKV_AppArmor_Check_Service_Status</script_name>
+            <script_name>RDKV_AppArmor_Dac_Override_Remove_Default</script_name>
+            <script_name>RDKV_AppArmor_Check_No_Profiles</script_name>
+            <script_name>RDKV_AppArmor_Capability_Check</script_name>
+        </scripts>
+    </test_suite>
+</xml>

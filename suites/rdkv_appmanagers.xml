@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>TestSuite For rdkv_appmanagers</description>
+        <scripts>
+            <script_name>RDKV_CERT_AppManagers_Functional_App_Top_ZOrder</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Launch_App_SetFocus</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_CloseApp_State_Transition_Active_To_Paused</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_App_Terminate_ContainerMode_Status_Check</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Launch_App_GetZOrder_After_Terminate</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Check_OnAppInstalled_OnAppUninstalled_Events</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Launch_App_SetVisible</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Kill_Already_Terminated_App</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Check_OnAppUnloaded_Event</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Check_OnBlur_Event</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_App_Kill_ContainerMode_Status_Check</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Terminate_Already_Terminated_App</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_App_Launch_ContainerMode_Status_Check</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Check_Launched_App_Active_State</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Launch_App_GenerateKey</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Close_Already_Terminated_App</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_Launch_App_Add_Remove_KeyIntercept</script_name>
+            <script_name>RDKV_CERT_AppManagers_Functional_GetInstalledApps_After_Uninstall</script_name>
+        </scripts>
+    </test_suite>
+</xml>

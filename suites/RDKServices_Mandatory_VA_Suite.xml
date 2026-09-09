@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xml>
+    <test_suite>
+        <category>RDKV_RDKSERVICE</category>
+        <description>Test suite for RDKServices_Mandatory_VA_Suite</description>
+        <scripts>
+            <script_name>RDKV_CERT_AVS_Frame_Rate</script_name>
+            <script_name>RDKV_CERT_AVS_HDCP_Profile</script_name>
+            <script_name>RDKV_CERT_AVS_Bluetooth</script_name>
+            <script_name>RDKV_CERT_AVS_Monitor</script_name>
+            <script_name>RDKV_CERT_AVS_User_Preferences</script_name>
+            <script_name>RDKV_CERT_AVS_Device_Info</script_name>
+            <script_name>RDKV_CERT_AVS_Controller</script_name>
+            <script_name>RDKV_CERT_AVS_PersistentStore</script_name>
+            <script_name>RDKV_CERT_AVS_Display_Info</script_name>
+            <script_name>RDKV_CERT_AVS_OCDM</script_name>
+            <script_name>RDKV_CERT_AVS_Display_Settings_Without_TV</script_name>
+            <script_name>RDKV_CERT_AVS_Display_Settings_VA</script_name>
+            <script_name>RDKV_CERT_AVS_Warehouse</script_name>
+            <script_name>RDKV_CERT_AVS_System</script_name>
+            <script_name>RDKV_CERT_AVS_Message_Control</script_name>
+            <script_name>RDKV_CERT_AVS_HdmiCecSource</script_name>
+            <script_name>RDKV_CERT_AVS_PlayerInfo</script_name>
+            <script_name>RDKV_CERT_AVS_Device_Diagnostics</script_name>
+            <script_name>RDKV_CERT_AVS_MaintenanceManager</script_name>
+            <script_name>RDKV_CERT_AVS_NetworkManager</script_name>
+            <script_name>RDKV_CERT_AVS_ScreenCapture</script_name>
+            <script_name>RDKV_CERT_AVS_MiracastService</script_name>
+        </scripts>
+    </test_suite>
+</xml>
